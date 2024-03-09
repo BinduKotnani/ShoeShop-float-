@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Product{
+    border: 3px solid black;
+    width: 1500px;
+    height: 325px;
+}
+
+.Footwear {
+    margin: 8px;
+    padding: 5px;
+    font-size: 25px;
+    background-color: rgb(246, 216, 178);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.picture{
+    margin-left: 3px;
+}
+
+
+.Price{
+    margin: 5px 0 0 3px;
+    font-size: 18px;
+}
+
+.Shipping{
+    margin: 0 0 3px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.theme{
+    margin: 5px 0 5px 3px;
+}
+
+.info{
+    margin: 3px;
+}
+
+.details{
+    margin: 12px 0 3px 3px;
+    text-transform: uppercase;
+}
+
+.list li {
+    margin: 3px 0 0 20px;
+}
+
+.cart {
+    margin: 10px 0 5px 3px;
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cart:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.available{
+    font-weight: bold;
+    margin: 5px 0 3px 3px;
+    font-size: larger;
+}
+
+.colors{
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+.color{
+    background-color: gray;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-left: 3px;
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+.color:hover{
+    font-weight: bold;
+}
+
+.color-blue{
+    background-color: blue;
+}
+
+.color-green{
+    background-color:green;
+}
+
+.color-orange{
+    background-color: orange;
+}
+
+.color-black{
+    background-color: black;
+    color: white;
+}
+
+.color-white{
+    background-color:white;
+}
+
+.color-orangered{
+    background-color: orangered;
+}
+
+/*FLOAT*/
+
+.picture{
+    float:left;
+}
+
+.product-details{
+    margin-top: 30px;
+    margin-bottom: 90px;
+    float:right;
+    width:800px;
+}
+
+.product-info{
+    float: left;
+    width:300px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
